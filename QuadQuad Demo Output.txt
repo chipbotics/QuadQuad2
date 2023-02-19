@@ -1,0 +1,84 @@
+
+QuadQuad2 Demo
+--------------------------------------------
+Arduino pin connections...
+QuadQuad2 Chip Select Pin : 10
+QuadQuad2 Ready Pin       : 2
+QuadQuad2 Reset Pin       : 3
+Standard Arduino SPI pins are used.
+
+Resetting QuadQuad2...
+
+Reading version...Success
+Firmware Version Major : 1
+Firmware Version Minor : 3
+Protocol Version       : 1
+--------------------------------------------
+Configure channel data fields...Success
+
+Read back channel data fields...Success
+
+Read motion data...Success
+Channel 1 : 
+  Position  : 0
+  Velocity  : 0
+  Glitch    : FALSE
+  Overspeed : FALSE
+Channel 2 : 
+  Position  : 0
+  Velocity  : 0
+  Glitch    : FALSE
+  Overspeed : FALSE
+Channel 3 : 
+  Position  : 0
+  Velocity  : 0
+  Glitch    : FALSE
+  Overspeed : FALSE
+Channel 4 : 
+  Position  : 0
+  Velocity  : 0
+  Glitch    : FALSE
+  Overspeed : FALSE
+
+Get history dimensions...Success
+History Length : 31
+History Time Bits : 20 = 671ms
+
+Set history dimensions...Success
+
+Get history dimensions...Success
+History Length : 48
+History Time Bits : 22 = 2684ms
+
+Set stream config...Success
+
+Set input mode...Success
+
+Set stream period...Success
+
+Get stream period...Success
+Stream Period : 4883 = 200ms
+
+Reading stream...
+Sample 1, Timing=1=0ms, Elapsed=1
+Channel 1 Position=0, Velocity=0
+Channel 2 Position=0, Velocity=0
+Channel 3 Position=0, Velocity=0
+Channel 4 Position=0, Velocity=0
+Sample 2, Timing=1=0ms, Elapsed=1
+Channel 1 Position=0, Velocity=0
+Channel 2 Position=0, Velocity=0
+Channel 3 Position=0, Velocity=0
+Channel 4 Position=0, Velocity=0
+Sample 3, Timing=1=0ms, Elapsed=1
+Channel 1 Position=0, Velocity=0
+Channel 2 Position=0, Velocity=0
+Channel 3 Position=0, Velocity=0
+Channel 4 Position=0, Velocity=0
+Sample 4, Timing=1=0ms, Elapsed=1
+Channel 1 Position=0, Velocity=0
+Channel 2 Position=0, Velocity=0
+Channel 3 Position=0, Velocity=0
+Channel 4 Position=0, Velocity=0
+
+Turn off stream...Success
